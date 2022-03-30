@@ -1,4 +1,4 @@
-FROM rabbitmq:3.6.6
+FROM rabbitmq:3.8-alpine
 
 RUN apt-get update \
 	&& apt-get install openssl -y  \ 
